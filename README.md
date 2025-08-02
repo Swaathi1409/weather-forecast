@@ -71,5 +71,3 @@ Uses OpenWeatherMap Current Weather Data API:
 - Edge 79+
 
 ## License
-
-MIT License
