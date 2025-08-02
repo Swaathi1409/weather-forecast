@@ -11,6 +11,14 @@ A responsive weather application built with HTML, CSS, and JavaScript that provi
 - Responsive design
 - Keyboard support (Enter key)
 
+## Live link
+https://weather-forecast-three-khaki.vercel.app/
+
+## Screenshots
+
+<img width="1352" height="647" alt="image" src="https://github.com/user-attachments/assets/c913f47f-86ba-4db9-af87-198ec9d9a1b9" />
+
+
 ## Technologies Used
 
 - HTML5
