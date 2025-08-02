@@ -1,0 +1,45 @@
+<!-- To create Weather App using HTML CSS and JS -->
+
+<!DOCTYPE html>
+
+<html>
+
+    <header>
+        
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css">
+
+    </header>
+
+    <body>
+
+        <!-- Division for main container -->
+        <div class="container">
+
+            <h1>Weather App</h1>
+
+            <!-- Input to get city name and button to get weather data-->
+            <input type="text" id="city" placeholder="Enter city name">
+            <button onclick="getWeather()">Get Weather</button>
+
+            <!-- Division to hide city, temprature and description before entering city name -->
+            <div class="hidden" id="result">
+
+                <h2 id="cityName"></h2>
+                <p id="temp"></p>
+                <p id="desc"></p>
+                <img id="weatherIcon" src="" alt="Weather Icon">
+                <p><strong>Feels like : </strong><span id="feels"></span> °C</p>
+                <p><strong>Humidity : </strong><span id="humidity"></span>%</p>
+                <p><strong>Wind Speed : </strong><span id="wind"></span> m/s</p>
+
+            </div>
+
+            <!-- Accessing javascript (script.js)-->
+            <script src="script.js"></script>
+
+        </div>
+
+    </body>
+
+</html>

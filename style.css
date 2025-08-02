@@ -1,0 +1,89 @@
+/* Aligning the container */
+
+.container{
+
+    max-width:400px;
+    text-align: center;
+    margin: 50px auto;
+    background-color: rgb(182, 212, 230);
+    color: rgb(3, 31, 44);
+    padding: 10px 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+/* Styling h1 */
+h1{
+    background-color: rgb(19, 47, 63);
+    color: azure;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+/* Styling h2 */
+h2{
+    margin-top: 20px;
+}
+
+/* Styling button */
+button{
+    background-color: rgb(4, 119, 31);
+    color: aliceblue;
+    padding: 5px;
+    font-size: 1.1rem;
+    border-radius: 20px;
+}
+
+/* Styling input */
+input{
+    padding: 5px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+p{
+    border: 100px 0px;
+}
+
+
+#temp{
+    color:rgb(4, 119, 31);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: -15px;
+}
+#desc{
+    color:rgb(150, 94, 12);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+#result{
+    font-size: 1.2rem;
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/5710764/pexels-photo-5710764.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Weather icon styling */
+#weatherIcon {
+    width: 80px;
+    height: 80px;
+    margin-top: -50px;
+}
+
+.hidden{
+    display: none;
+}
